@@ -1,0 +1,45 @@
+<div class="container-fluid">
+	<div class="dropdown" align="center">
+		<!-- Split button -->
+		<div class="btn-group">
+			<button type="button" class="btn btn-default btn-lg">Packages</button>
+			<button type="button" class="btn btn-default btn-lg dropdown-toggle"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<span class="caret"></span> <span class="sr-only">Toggle
+					Dropdown</span>
+			</button>
+			<ul class="dropdown-menu" style="width: 80%">
+				<li><a href="#/BasicPackages">Basic Packages</a></li>
+				<li><a href="#/MedPackages">Medium Packages</a></li>
+				<li><a href="#/HighPackages">Exclusive Packages</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#/RelativePrices">Relative Prices</a></li>
+			</ul>
+		</div>
+	</div>
+	<br> <br> <br>
+	<div class="row">
+		<div class="col-lg-8 col-md-8 col-sm-12"
+			ng-controller="PricesBasicCtrl">
+			<div class="card card-2">
+				<canvas id="base" class="chart-horizontal-bar" chart-data="data"
+					chart-labels="labels" chart-colors="colors";>
+                    </canvas>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<div class="card card-2">
+				<div class="card-header" style="background-color: #f5f5f5">
+					<h3>Basic Packages</h3>
+				</div>
+				<div calss="card-block">
+					<h5 class="card-title">Basic Packages</h5>
+					<p class="card-text">Donec sed odio dui. Cras justo odio,
+						dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
+						porta felis euismod semper. Fusce dapibus, tellus ac cursus
+						commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+						sit amet risus.</p>
+				</div>
+			</div>
+		</div>
+	</div>

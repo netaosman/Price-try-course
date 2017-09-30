@@ -1,0 +1,132 @@
+div.panel {
+	background: #ffffff;
+	text-align: center;
+	border-color: #fff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.panel:hover {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px #ffe6f2;
+	/* rgba(0, 0, 0, 0.23); */
+}
+
+div.panel-heading {
+	color: #152535;
+	font-family: 'Open Sans', Cambria, sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	text-align: center;
+}
+
+div.panel-title {
+	color: #152535;
+	font-family: 'Open Sans', Cambria, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	text-align: center;
+}
+
+div.panel-body {
+	color: #152535;
+	font-family: 'Open Sans', Cambria, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.table .relative {
+	color: #152535;
+	font-family: 'Open Sans', Cambria, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	text-align: left;
+}
+
+.table .relative-price {
+	color: #8a3e8e;
+	font-family: 'Open Sans', Cambria, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	text-align: right;
+}
+
+.table .title-prices {
+	color: #152535;
+	font-family: 'Open Sans', Cambria, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	text-align: left;
+}
+
+.table .prices {
+	color: #8a3e8e;
+	font-family: 'Open Sans', Cambria, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	text-align: right;
+}
+
+.dropdown {
+	color: #cc0099;
+	font-family: 'Open Sans', Cambria, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.dropdown{
+    text-align: center;
+}
+
+button.btn-default{
+    color:#000000;
+    font-family: 'Open Sans', Cambria, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+ul.dropdown-menu{
+    width: 110%;
+}
+
+ul.dropdown-menu>li>a{
+    color:#000000;
+    font-family: 'Open Sans', Cambria, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+div.panel p{
+    color:#152535;
+    font-family: 'Open Sans', Cambria, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}

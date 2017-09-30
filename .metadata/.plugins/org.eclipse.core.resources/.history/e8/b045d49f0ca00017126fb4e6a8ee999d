@@ -1,0 +1,79 @@
+<p class="sub-header">Exclusive Packages</p>
+
+<div class="container-fluid">
+	<div class="dropdown" align="center">
+		<!-- Split button -->
+		<div class="btn-group">
+			<button type="button" id="first-btn" class="btn btn-default">Packages</button>
+			<button type="button" class="btn btn-default dropdown-toggle"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<span class="caret"></span> <span class="sr-only">Toggle
+					Dropdown</span>
+			</button>
+			<ul class="dropdown-menu" id="first-menu" style="width: 80%">
+				<li><a href="#/BasicPackages">Basic Packages</a></li>
+				<li><a href="#/MedPackages">Medium Packages</a></li>
+				<li><a href="#/HighPackages">Exclusive Packages</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#/RelativePrices">Relative Prices</a></li>
+			</ul>
+		</div>
+	</div>
+	<br> 
+	<div class="row placeholders">
+		<div class="col-xs-12 col-md-8" ng-controller="PricesHighCtrl">
+			<div class="panel panel-default-1">
+				<div class="panel-heading">Prices</div>
+				<div class="panel-body">
+					<!-- <div class="panel-title">Prices</div> -->
+					<br>
+					<canvas id="base" class="chart-horizontal-bar" chart-data="data"
+						chart-labels="labels" chart-colors="colors">
+                                </canvas>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-4">
+			<div class="panel panel-default-1">
+				<div class="panel-heading">Bottom Line</div>
+				<div class="panel-body">
+					<table class="table">
+						<thead>
+							<tr>
+								<th class="relative">Relative Price</th>
+								<th class="relative-price">33%</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="title-prices"><span
+									class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>
+									My Price</td>
+								<td class="prices">16.66$</td>
+							</tr>
+							<tr>
+								<td class="title-prices"><span
+									class="glyphicon glyphicon-hand-up" aria-hidden="true"></span>
+									Highest Price</td>
+								<td class="prices">25$</td>
+							</tr>
+							<tr>
+								<td class="title-prices"><span
+									class="glyphicon glyphicon-hand-left" aria-hidden="true"></span>
+									Average</td>
+								<td class="prices">19.64$</td>
+							</tr>
+							<tr>
+								<td class="title-prices"><span
+									class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+									Lowest Price</td>
+								<td class="prices">15$</td>
+							</tr>
+						</tbody>
+
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

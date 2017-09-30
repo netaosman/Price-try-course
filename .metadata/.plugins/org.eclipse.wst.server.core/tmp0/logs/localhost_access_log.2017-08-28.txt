@@ -1,0 +1,9 @@
+127.0.0.1 - - [28/Aug/2017:10:50:18 +0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [28/Aug/2017:10:50:19 +0300] "GET /prixce_front/WEB-INF/prixce_html/try.html HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [28/Aug/2017:10:50:43 +0300] "GET /prixce_front/WEB-INF/prixce_html/try.html HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [28/Aug/2017:10:50:44 +0300] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [28/Aug/2017:10:52:38 +0300] "GET /prixce_front/WEB-INF/prixce_html/try.html HTTP/1.1" 404 949
+127.0.0.1 - - [28/Aug/2017:11:23:39 +0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [28/Aug/2017:11:23:39 +0300] "GET /prixce_front/WEB-INF/prixce_html/try.html HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [28/Aug/2017:11:23:51 +0300] "GET /prixce_front/WEB-INF/prixce_html/try.html HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [28/Aug/2017:11:24:21 +0300] "GET /prixce_front/WEB-INF/prixce_html/try.html HTTP/1.1" 404 949

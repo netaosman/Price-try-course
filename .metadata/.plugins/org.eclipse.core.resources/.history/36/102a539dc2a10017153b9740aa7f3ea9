@@ -1,0 +1,96 @@
+<div class="container-fluid">
+	<div class="dropdown">
+		<!-- Split button -->
+		<div class="btn-group">
+			<button type="button" class="btn btn-default">Change Package</button>
+			<button type="button" class="btn btn-default dropdown-toggle"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<span class="caret"></span> <span class="sr-only">Toggle
+					Dropdown</span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#/BasicPackages">Basic Packages</a></li>
+				<li><a href="#/MedPackages">Medium Packages</a></li>
+				<li><a href="#/HighPackages">Exclusive Packages</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#/RelativePrices">Relative Prices</a></li>
+			</ul>
+		</div>
+	</div>
+	<br>
+	<section class="row text-center placeholders">
+		<h1 class="prices-title">Relative Price</h1>
+		<h4 class="prices-title">The % Yola is pricing Less than the
+			highest competitor price in each packeges.</h4>
+		<br>
+		<br>
+		<br>
+		<div class="col-xs-9 col-md-4 col-lg-4">
+			<div class="panel panel-default-1">
+				<div class="panel-heading">Basic Package</div>
+				<div class="panel-title">Range: $4 - $8.5</div>
+				<div class="panel-body">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="49"
+							aria-valuemin="0" aria-valuemax="100"
+							style="width: 49%; background-color: #fe9172;"></div>
+						<p>51%</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-9 col-md-4 col-lg-4">
+			<div class="panel panel-default-1">
+				<div class="panel-heading">Medium Package</div>
+				<div class="panel-title">Range: $7.5 - $12.99</div>
+				<div class="panel-body">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="64"
+							aria-valuemin="0" aria-valuemax="100"
+							style="width: 64%; background-color: #f16e80;"></div>
+						<p>36%</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-9 col-md-4 col-lg-4">
+			<div class="panel panel-default-1">
+			<div class="panel-heading">Exclusive Package</div>
+			<div class="panel-title prices">Range: $15 - $25</div>
+				<div class="panel-body">
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="67"
+							aria-valuemin="0" aria-valuemax="100"
+							style="width: 67%; background-color: #d35393;"></div>
+						<p>33%</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<!-- aggrigation -->
+	<section class="row text-center placeholders">
+		<h1 class="prices-title">Aggregation</h1>
+		<h4 class="prices-title">On average Yola is pricing 38% Less than
+			the highest competitor price in each package.</h4>
+		<br>
+		<br>
+		<br>
+		<div class="col-xs-12 col-md-12">
+			<div class="panel panel-default-1">
+				<div class="panel-body" style="padding-top: 5%">
+					<div id="aggregation" class="progress">
+						<div id="aggregation-bar" class="progress-bar" role="progressbar "
+							aria-valuenow="62 "
+							aria-valuemin="0
+                                        "
+							aria-valuemax="100 "
+							style="width: 62%; background-color: #a0478e"></div>
+						<p>38%</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
